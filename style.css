@@ -1,0 +1,117 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app{
+    background-color: burlywood;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.carousel-component{
+    box-sizing: border-box;
+    
+    
+}
+.carousel-item{
+    
+    position: relative;
+    min-width: 80%;
+    height: 80%;
+    border: solid 2px red; 
+     
+}
+.carousel-item img {
+    position: relative;
+}
+.toRight{
+    animation: righttoleft 0.5s;
+}
+@keyframes righttoleft {
+    0% {
+        left: 100%;
+    }
+    25% {
+        left: 75%;
+    }
+    50% {
+        left: 50%;
+    }
+    75% {
+        left: 25%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.toLeft {
+    animation: lefttoright 0.5s;
+}
+
+@keyframes lefttoright {
+    0% {
+        right: 100%;
+    }
+    25% {
+        right: 75%;
+    }
+    50% {
+        right: 50%;
+    }
+    75% {
+        right: 25%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.nav-btn {
+    position: absolute;
+    border-radius: 50px;
+    font-size: 28px;
+  
+}
+.right-side{
+    position: absolute;
+    opacity: 0.1;
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+.left-side{
+    position: absolute;
+    opacity: 0.1;
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+}
+.right {
+    top: 50%;
+    left: 5%;
+}
+.left {
+    top: 50%;
+    right: 5%;
+}
+
+.selected-img{
+    margin: 20px 10px;
+    font-size: 28px;
+    border-radius: 25px;
+
+}
+
+.movable{
+    width: 300px;
+    height: 100px;
+}
+.currently-selected{
+    background-color: chocolate;
+}

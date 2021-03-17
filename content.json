@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "category": "nature",
+        "description": "nature 1",
+        "imgSrc": "./images/road-1072823_1280.jpg"
+    },
+    {
+        "id": "2",
+        "category": "nature",
+        "description": "nature 2",
+        "imgSrc": "./images/tree-276014_1280.jpg"
+    },
+    {
+        "id": "3",
+        "category": "nature",
+        "description": "nature 3",
+        "imgSrc": "./images/tree-736885_1280.jpg"
+    },
+    {
+        "id": "4",
+        "category": "car",
+        "description": "car 1",
+        "imgSrc": "./images/fiat-4322521_1280.jpg"
+    },
+    {
+        "id": "5",
+        "category": "car",
+        "description": "car 2",
+        "imgSrc": "./images/car-3046424_1280.jpg"
+    },
+    {
+        "id": "6",
+        "category": "car",
+        "description": "car 3",
+        "imgSrc": "./images/car-63930_1280.jpg"
+    }
+]
