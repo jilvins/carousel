@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 5%;
+    background-color: black;
+}
 img {
     width: 100%;
     height: 100%;
@@ -5,23 +10,19 @@ img {
 }
 
 .app{
-    background-color: burlywood;
     text-align: center;
-    width: 100vw;
-    height: 100vh;
-    
+    width: 90vw;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
 }
-.carousel-component{
-    box-sizing: border-box;
-    
-    
-}
+
 .carousel-item{
-    
     position: relative;
     min-width: 80%;
     height: 80%;
-    border: solid 2px red; 
+    align-items: center;
      
 }
 .carousel-item img {
@@ -34,17 +35,11 @@ img {
     0% {
         left: 100%;
     }
-    25% {
-        left: 75%;
-    }
     50% {
         left: 50%;
     }
-    75% {
-        left: 25%;
-    }
     100% {
-        left: 0;
+        left: 0%;
     }
 }
 
@@ -56,14 +51,8 @@ img {
     0% {
         right: 100%;
     }
-    25% {
-        right: 75%;
-    }
     50% {
         right: 50%;
-    }
-    75% {
-        right: 25%;
     }
     100% {
         right: 0;
@@ -74,11 +63,12 @@ img {
     position: absolute;
     border-radius: 50px;
     font-size: 28px;
-  
+    border: none;
+    outline: none;
 }
 .right-side{
     position: absolute;
-    opacity: 0.1;
+    opacity: 0;
     width: 50%;
     height: 100%;
     top: 0%;
@@ -86,7 +76,7 @@ img {
 }
 .left-side{
     position: absolute;
-    opacity: 0.1;
+    opacity: 0;
     width: 50%;
     height: 100%;
     top: 0%;
@@ -105,13 +95,10 @@ img {
     margin: 20px 10px;
     font-size: 28px;
     border-radius: 25px;
-
+    border: none;
+    outline: none;
 }
 
-.movable{
-    width: 300px;
-    height: 100px;
-}
 .currently-selected{
     background-color: chocolate;
 }
